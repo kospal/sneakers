@@ -1,0 +1,55 @@
+.menu-social2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px;
+    align-items: center;
+    column-gap: 5rem;
+    position: relative;
+    
+
+}
+
+.twitter-img {
+    margin-top: 5px;
+    height: 35px;
+    margin-left:0px;
+    width:40px;
+
+}
+
+.google-plus-img, .facebook-img, .youtube-img, .flickr-img, .instagram-img {
+    height: 42px;
+    width: 40px;
+  }
+
+  .menu2{
+    line-height: 35px;
+  }
+
+  @media only screen and (max-width: 1350px) {
+  .home,.for-men,.for-women,.for-kid,.accessories,.top-special-products,.about-us,.blog{
+    display: table;
+    color:white;
+  }
+  }
+  .home{
+    
+    color:#eb3e32;
+
+}
+
+.close{
+    position: absolute;
+    top:23px;
+    left:50%;
+    cursor: pointer;
+    background-color: #2f333a;
+    border: none;
+}
+
+.close:hover{
+    color:red;
+}
+

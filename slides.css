@@ -1,0 +1,143 @@
+.carousel{
+    overflow:hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.slide1,.slide2,.slide3{
+    
+    width: 100%;    
+    height: 100%;
+}
+
+.title{
+    
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    font-size: 7vw;
+    top:10%;
+    color:white;
+    width: 100%;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  
+  100%  {top:35%;}
+  
+}
+
+.image-text{
+
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    font-size: 1.5vw;
+    top:55%;
+    color:white;
+    width: 100%;
+
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes example2 {
+
+100%  {top:50%;}
+
+}
+
+.shop-now{
+    position: absolute;
+    font-size: 1.2vw;
+    cursor: pointer;
+    color:white;
+    border:none;
+    white-space: nowrap;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    font-weight: 500;
+    top:90%;
+    width:11%;
+    height:8%;
+    border:3px solid white;
+    background-color: rgba(0, 0, 0, .25); /* Transparent color */
+    line-height: 5px;
+
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example3 {
+
+    100%  {top:70%;}
+    
+    }
+
+.shop-now:hover{
+    background-color: #eb3e32;
+}
+
+.bullets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    z-index: 1;
+    bottom: 5%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+
+.bullet-btn1,.bullet-btn2,.bullet-btn3{
+    background:none;
+    border:none;
+    cursor: pointer;
+    color:white;
+    font-size:2.1vw;
+    width:30px;
+    height:50px;
+    transition: .3s ease-in-out 0s;
+   
+}
+
+.bullet-btn1:focus,.bullet-btn2:focus,.bullet-btn3:focus{
+    color:#eb3e32;
+    
+}
+
+.bullet-btn1:hover,.bullet-btn2:hover,.bullet-btn3:hover{
+    color:#eb3e32;
+    font-size:45px;
+    
+   
+}
+
+.carousel-dots{
+    position: relative;  
+}
+
+
+
+

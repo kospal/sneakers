@@ -1,0 +1,152 @@
+.mini-slides{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:-10px;
+    position: relative;
+}
+
+.mini-slide-1,.mini-slide-2,.mini-slide-3{
+    width:100%;
+    height:95%;
+}
+
+.mini-slide-1:hover,.mini-slide-2:hover,.mini-slide-3:hover{
+    cursor: pointer;
+}
+
+.mini-title{
+    position: absolute;
+    top:20%;
+    left:2%;
+    color:white;
+    font-size: 3vw;
+    cursor: pointer;
+    
+}
+
+.first,.second,.third{
+
+    overflow: hidden;
+      
+}
+
+.mini-slide-1,.mini-slide-2,.mini-slide-3{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.mini-slide-1:hover,.mini-slide-2:hover,.mini-slide-3:hover{
+    transform: scale(1.1);
+    height:90.5%;
+}
+
+.mini-desc1{
+    position: absolute;
+    top:35%;
+    left:12%;
+    color:white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.mini-desc2{
+    position: absolute;
+    top:40%;
+    left:5%;
+    color:white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.mini-view{
+    position: absolute;
+    top:60%;
+    left:12%;
+    color:white;
+    font-size: 1vw;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mini-view:hover,.mini-view-second:hover,.mini-view-third:hover{
+    color:#eb3e32;
+    
+}
+
+.mini-title-second{
+    position: absolute;
+    top:20%;
+    left:35%;
+    color:white;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+.mini-desc1-second{
+    position: absolute;
+    top:35%;
+    left:42%;
+    color:white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.mini-desc2-second{
+    position: absolute;
+    top:40%;
+    left:34%;
+    color:white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.mini-view-second{
+    position: absolute;
+    top:60%;
+    left:46%;
+    color:white;
+    font-size: 1vw;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.mini-title-third{
+    position: absolute;
+    top:20%;
+    left:73%;
+    color:white;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+.mini-desc1-third{
+    position: absolute;
+    top:35%;
+    left:75%;
+    color:white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.mini-desc2-third{
+    position: absolute;
+    top:40%;
+    left:77%;
+    color:white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.mini-view-third{
+    position: absolute;
+    top:60%;
+    left:80%;
+    color:white;
+    font-size: 1vw;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ 
+

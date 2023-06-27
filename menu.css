@@ -1,0 +1,92 @@
+.menu-social{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 40px;  
+}
+
+.social{
+
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.home,.for-men,.for-women,.for-kid,.accessories,.top-special-products,.about-us,.blog{
+    margin-right:5px;
+    cursor: pointer;
+    font-weight:500;
+    font-size:16px;
+    font-family: 'Rubik', sans-serif;
+   
+}
+
+.home:hover,.for-men:hover,.for-women:hover,.for-kid:hover,.accessories:hover,.top-special-products:hover,.about-us:hover,.blog:hover{
+    color:#eb3e32;
+}
+
+.home{
+    
+    color:#eb3e32;
+}
+
+.twitter-img{
+    margin-top:5px;
+    height:35px;
+    margin-left:10px;
+}
+
+.follow{
+    color:grey;
+}
+.google-plus-img,.facebook-img,.youtube-img,.flickr-img,.instagram-img{
+    height: 42px;
+}
+
+.twitter-img:hover,.google-plus-img:hover,.facebook-img:hover,.youtube-img:hover,.flickr-img:hover,.instagram-img:hover{
+
+    cursor: pointer;
+
+}
+
+@media only screen and (min-width: 1350px) {
+
+    .menu-js{
+        display: none;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 1349px) {
+
+    .menu-js{
+        display: flex;
+        justify-content: center;
+        background-color: #2f333a;
+        
+    }
+
+    .social{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+}
+
+
+

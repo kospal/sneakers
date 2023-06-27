@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sneakers</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="pop_message.css">
+    <link rel="stylesheet" href="header1.css">
+    <link rel="stylesheet" href="header2.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="slides.css">
+    <link rel="stylesheet" href="mini-slides.css">
+    <link rel="stylesheet" href="items.css">
+    <link rel="stylesheet" href="menu-responsive.css">
+    <link rel="stylesheet" href="newsletter.css">
+ 
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="paragraph">
+        <p>Today Offer: $20 OFF orders $300 or more with code 
+            <span class="color1">“SNEAKER002”</span> + Free shipping on orders over $60! 
+            <span class="color2">Offer Details</span>
+        </p>
+        </div>
+
+        <div class="close-pop">
+            X
+        </div>
+
+
+    </div>
+
+    <div class="header1">
+
+
+      
+        <div class="item1">
+            <img class="img-hot" src="images/hot.jpg">
+            <span class="text">New arrivals /</span> 
+            <span class="texts2">Junya watanabe Man,</span> 
+            <span class="texts3">Undercover,</span> 
+            <span class="texts4">Nonnative,</span> 
+            <span class="texts5">Visvim.</span>
+        </div>
+        
+
+        
+       <div class="header1-items">
+        <div class="item2"><img class="img-location" src="images/Location.jpg"><span class="text2">Store Location</span></div>
+        <div class="item3"><img class="img-tracking" src="images/tracking.jpg"><span class="text2">Track your order</span></div>
+        <div class="item4"><span class="text2">Language: EN/GB</span></div>
+        <div class="item5"><span class="text2">Currency:USD</span></div>
+        <div class="item6"><span class="text2">My Account</span></div>
+       </div>
+
+    </div>
+
+    <div class="header2">
+
+        <div class="items1"><img class="img-sneaker" src="images/logo-sneaker2.png"></div>
+        <div class="items2"><div><img class="img-support" src="images/support.jpg"></div>
+        <div style="display: inline-grid;"><span class="text3">Customer support</span>
+        <span style="color:#eb3e32;font-size:16px;font-weight:600;">(012) 800 456 789</span></div>
+        </div>
+        <div class="items3"><button class="button-categories"><span class="text4">All Categories</span></button>
+        
+            <input class="search-bar" type="search" name="search" placeholder="Search entire store here...">
+            <button class="button-search"><span class="text5">Search</span></button>
+        
+        </div>
+        <div class="items4">
+
+            <div><img class="person-img" src="images/person.jpg"></div>
+        
+            <div><span class="register-text">Register</span><p class="login-text">or
+            <span class="login">Login</span></p></div>
+        
+        </div>
+        <div class="items5">
+            <div class="favourite-div">
+            <img class="favourite-img" src="images/favourite.jpg">
+            <span class="favourite-number">0</span>
+            </div>   
+        </div>
+        <div class="items6">
+            
+            <div><img class="cart-img" src="images/cart.jpg"><span class="favourite-cart-number">0</span></div>
+        
+            <div><span class="cart-text">My Cart</span><p class="cart-price">0.00</p></div>
+
+        </div>
+    </div>
+
+    
+    <div class="menu-js">
+        <script src ='menu.js'></script>
+        <script>window.addEventListener("resize", load_menu);</script>
+    </div>
+
+   
+    
+    <div class="menu-social">
+
+        <div class="menu">
+
+            <div class="home"><span>HOME</span></div>
+            <div class="for-men"><span>FOR MEN</span></div>
+            <div class="for-women"><span>FOR WOMEN</span></div>
+            <div class="for-kid"><span>FOR KID</span></div>
+            <div class="accessories"><span>ACCESSORIES</span></div>
+            <div class="top-special-products"><span>TOP SPECIAL PRODUCTS</span></div>
+            <div class="about-us"><span>ABOUT US</span></div>
+            <div class="blog"><span>BLOG</span></div>
+    
+        </div>
+
+        <div class="social">
+
+            <div class="follow">FOLLOW US</div>
+            <div><img class="twitter-img" src="images/twitter.jpg"></div>
+            <div><img class="google-plus-img" src="images/google-plus.jpg"></div>
+            <div><img class="facebook-img" src="images/facebook.jpg"></div>
+            <div><img class="youtube-img" src="images/youtube.jpg"></div>
+            <div><img class="flickr-img" src="images/flickr.jpg"></div>
+            <div><img class="instagram-img" src="images/instagram.jpg"></div>
+
+        </div>
+
+    </div>
+    
+    <div class="carousel-dots">
+
+        <div class="bullets">
+            <div class="bullet1"><button class="bullet-btn1" >&#8226</button></div>
+            <div class="bullet2"><button class="bullet-btn2">&#8226</button></div>
+            <div class="bullet3"><button class="bullet-btn3">&#8226</button></div>
+        </div>
+
+        <div class="carousel">
+            
+            <script src="slides.js"></script>
+            
+            <script>
+                document.querySelector(".carousel").innerHTML = result; // random slide loading
+            </script>
+
+        </div>
+    </div>
+
+
+    <div class="mini-slides">
+
+        <div class="first">
+            <img class="mini-slide-1" src="images/mini-slide1.jpg">
+            
+                <span class="mini-title"><span style="font-weight:bold;">WING</span> SUNGLASSES</span>
+                <span class="mini-desc1">A SINGLE DAY AT</span>
+                <span class="mini-desc2">SPORTWEAR. SALE OFF 20% FOR ALL PRODUCTS</span>
+                <span class="mini-view">View All Collection</span>
+            
+        </div>
+        <div class="second">
+            <img class="mini-slide-2" src="images/mini-slide2.jpg">
+            <span class="mini-title-second"><span style="font-weight:bold;">EXOLORE</span> CAMPAIGN</span>
+            <span class="mini-desc1-second">THE HOLIDAY NIKE TECH FLEECE</span>
+            <span class="mini-desc2-second">AEROLOFT COLLECTION WILL ENSURE YOU NEVER GET COLD AGAIN</span>
+            <span class="mini-view-second">View All Collection</span>
+        </div>
+        <div class="third">
+            <img class="mini-slide-3" src="images/mini-slide3.jpg">
+            <span class="mini-title-third"><span style="font-weight:bold;">AIR</span> JORDAN 32</span>
+            <span class="mini-desc1-third">DISCOUNT 10% FOR ALL CUSTOMERS</span>
+            <span class="mini-desc2-third">BOOKED BEFORE <span style="color:rgb(228, 26, 228);">14/12/2023</span></span>
+            <span class="mini-view-third">View All Collection</span>
+        </div>
+    </div>
+
+    <div class="items">
+
+        <div class="featured">Featured</div>
+        <div class="symbol" style="text-align:center;">/</div>
+        <div class="new-arrivals">New Arrivals</div>
+        <div class="symbol" style="text-align:center;">/</div>
+        <div class="bestseller">Bestseller</div>
+        <div class="symbol2" style="margin-left:4%;margin-right:4%;"><hr></div>
+        <div class="symbol3"><pre style="display:inline;cursor:pointer">< ></pre></div>
+
+    </div>
+    
+    
+    <div class="shoes">
+
+    </div>
+
+    <script src="shoes.js"></script>
+
+    <br><br>
+
+    <div class="newsletter">
+        <img class="image-newletter"src="images/newsletter.jpg">
+
+        
+        <span class="join">Join our</span>
+        <span class="now">Newsletters now!</span>
+        <input class="textbox" type="text" placeholder="Enter your email address here...">
+        <button class="subscribe">SUBSCRIBE</button>
+
+    </div>
+
+    <br>
+    
+</body>
+</html>
+
+<script src="pop_messages.js"></script>
+<script src="new_arrivals.js"></script>
+<script src="bestseller.js"></script>
+<script src="items.js"></script>
